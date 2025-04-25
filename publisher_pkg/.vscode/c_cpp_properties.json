@@ -1,0 +1,29 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/won/turtlebot3_ws/install/turtlebot3_msgs/include/**",
+        "/home/won/turtlebot3_ws/install/dynamixel_sdk_custom_interfaces/include/**",
+        "/home/won/turtlebot3_ws/install/dynamixel_sdk/include/**",
+        "/home/won/ros2_ws/install/imu_filter_madgwick/include/**",
+        "/home/won/ros2_ws/install/imu_complementary_filter/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/won/ros2_ws/src/imu_tools/imu_complementary_filter/include/**",
+        "/home/won/ros2_ws/src/imu_tools/imu_filter_madgwick/include/**",
+        "/home/won/ros2_ws/src/ros_wit_imu_node/include/**",
+        "/home/won/ros2_ws/src/y3space_driver/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}
