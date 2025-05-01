@@ -21,10 +21,9 @@ class Service(Node):
         # in this case, the Publisher will publish on /cmd_vel topic with a queue size of 10 messages.
         # use the Twist module
         self.publisher_ = self.create_publisher(Twist, 'cmd_vel', 10)
-        
 
     def empty_callback(self, request, response):
-        # The callback function receives the self-class parameter, 
+        # The callback function receives the self-class parameter,
         # received along with two parameters called request and response
         # - receive the data by request
         # - return a result as a response
@@ -39,8 +38,6 @@ class Service(Node):
         self.publisher_.publish(msg)
         # print a pretty message
         self.get_logger().info('RUN ROBOT RUN!')
-        
-        
         # return the response parameter
         return response
 
